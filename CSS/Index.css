@@ -1,0 +1,28 @@
+*{
+    box-sizing: content-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    border-width: 2px;
+    margin-left: 10px ;
+}
+.login-register-form{
+    display: flex;
+    justify-content: center;
+    padding-left: 25rem;
+}
+.header-carousel-item{
+    height: 450px;
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+    background: no-repeat;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.6);  
+}
